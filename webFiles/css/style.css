@@ -348,14 +348,14 @@ footer p::before {
 /* media queries 950px  */
 
 
-/* media queries 768px */
-@media screen and (max-width: 768px) {
+/* media queries 790px */
+@media screen and (max-width: 860px) {
   header div {
     position: static;
   }
   main {
     position: relative;
-    max-width: 768px;
+    max-width: 860px;
     overflow: hidden;
   }
   main article {
@@ -373,7 +373,7 @@ footer p::before {
   }
   main article:nth-of-type(2n) img {
     position: relative;
-    left: 150px;
+    left: 110px;
     margin: 0;
   }
   main article section {
@@ -385,6 +385,8 @@ footer p::before {
   main article img {
     margin: 0;
     object-fit: contain;
+    position: relative;
+    left: -30px;
   }
   p.break {
     display: none;
@@ -411,24 +413,23 @@ footer p::before {
   main article {
     display: flex;
     margin: 5rem 0;
-    position: relative;
-    left: 40px;
+
   }
   main article:nth-of-type(2n) {
     left: 80px;
   }
   main article:nth-of-type(2n) section {
     position: relative;
-    left: 30px;
+    left: -20px;
   }
   main article:nth-of-type(2n) img {
     position: relative;
-    left: 80px;
+    left: 45px;
     margin: 0;
   }
   main article section {
     position: relative;
-    left: -40px;
+    left: 65px;
     margin: 0;
     align-items: center;
   }
@@ -438,7 +439,7 @@ footer p::before {
     margin: 0;
     object-fit: contain;
     position: relative;
-    left: -120px;
+    left: 5px;
   }
   main article h2 {
     font-size: 18px !important;
